@@ -10,7 +10,7 @@ long Tich(int n)
 
 int main()
 {
-    int n, ;
+    int n, T ;
     printf("\n Nhap n = ");
     scanf("%d", &n);
 
