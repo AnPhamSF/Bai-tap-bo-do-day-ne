@@ -54,7 +54,7 @@ public class ThongTinDangKyXe {
 
     @Override
     public String toString() {
-        return loaiXe + "-"+chuXe + "-"+dungTich + "-" + triGia;
+        return loaiXe + "-"+chuXe + "-"+ dungTich + "-" + triGia;
     }
 
     void inThue(){
