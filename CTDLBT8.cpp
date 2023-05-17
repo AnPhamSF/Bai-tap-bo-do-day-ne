@@ -13,7 +13,7 @@ public:
     }
     bool push(int x) {
         if (top >= (MAX - 1)) {
-            cout << "Stack Overflow";
+            cout << "Stack day roi !";
             return false;
         }
         else {
