@@ -16,7 +16,7 @@ public:
 
     void enqueue(int data) {
         if (rear >= MAX_SIZE - 1) {
-            cout << "Queue overflow!" << endl;
+            cout << "Hang doi day roi !" << endl;
             return;
         }
 
@@ -33,7 +33,7 @@ public:
 
     int dequeue() {
         if (front == -1 || front > rear) {
-            cout << "Queue underflow!" << endl;
+            cout << "Hang doi!" << endl;
             return 0;
         }
 
@@ -51,7 +51,7 @@ public:
     }
 
     void printQueue() {
-        cout << "Queue: ";
+        cout << "Hang doi: ";
         for (int i = front; i <= rear; i++) {
             cout << arr[i] << " ";
         }
@@ -69,7 +69,7 @@ int main() {
     queue.enqueue(56);
     queue.enqueue(1);
 
-    queue.enqueue(55);
+    queue.enqueue();
     queue.dequeue();
     queue.dequeue();
 
